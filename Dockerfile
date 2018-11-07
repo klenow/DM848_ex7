@@ -8,4 +8,4 @@ WORKDIR /app
 COPY ./app /app
 
 # Run app.py when the container launches
-CMD ["jolie", "match.ol"]
+CMD ["jolie", "-l ./match.jar match.ol"]
